@@ -1,0 +1,8 @@
+.presentation-container{
+    padding: 20px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    font-size: 100px;
+  }
