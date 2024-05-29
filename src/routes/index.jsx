@@ -1,6 +1,7 @@
 import React from 'react'
 import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import { HomePage } from '../components/Sections Pages/Home/HomePage'
+import { VideosYTips } from '../components/Sections Pages/VideosyTips/VideosYTips'
 
 
 const router= createBrowserRouter([
@@ -9,8 +10,8 @@ const router= createBrowserRouter([
         element: <HomePage/>
     },
     {
-        path:'/videos',
-        element: <div>Videos de mierda</div>
+        path:'/Videos-Y-Tips',
+        element: <VideosYTips/>
     }
 
 
